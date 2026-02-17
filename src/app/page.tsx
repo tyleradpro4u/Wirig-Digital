@@ -11,7 +11,7 @@ const BRAND = {
 
 const LINKS = {
   primaryCta: "Book a Website Demo",
-  secondaryCta: "Text a Photo",
+  secondaryCta: "Call/Text",
 };
 
 function cx(...classes: Array<string | false | null | undefined>) {
@@ -50,7 +50,9 @@ function PrimaryButtons() {
   return (
     <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
       <a
-        href="/contact"
+        href="https://calendly.com/tywirig"
+        target="_blank"
+        rel="noreferrer"
         className="inline-flex h-12 items-center justify-center rounded-xl bg-slate-900 px-5 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-800"
       >
         {LINKS.primaryCta}
@@ -310,7 +312,7 @@ export default function Home() {
             <div className="mt-7">
               <PrimaryButtons />
               <p className="mt-3 text-sm text-slate-500">
-                Quickest way to start: text a link to your website + what you sell.
+                Quickest way to start: call or text me and tell me what you do.
               </p>
             </div>
 
@@ -374,33 +376,33 @@ export default function Home() {
         <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           <Card
             icon="page"
-            title="One-page website (conversion-focused)"
-            body="Mobile-first layout, clear sections, and obvious call/text buttons. Built to turn visits into leads."
+            title="Conversion-focused one-page site"
+            body="Mobile-first layout, clear sections, and an obvious call/text next step. Built to turn visits into leads."
           />
           <Card
-            icon="offer"
-            title="Message + structure"
-            body="We make your services and next step painfully clear—so the right customers contact you."
+            icon="ads"
+            title="Built for calls + texts"
+            body="Sticky mobile CTA, tap-to-call, and fast “what happens next” messaging for higher conversion."
           />
           <Card
-            icon="direct"
-            title="Direct communication"
-            body="Clients can call, text, or email you (and you can reach me directly for updates)."
+            icon="seo"
+            title="Local-ready"
+            body="Service areas, clean headings, and a structure that supports Google + Maps traffic."
           />
           <Card
             icon="track"
-            title="Basics included"
-            body="Contact buttons, email capture (optional), and a simple setup that’s easy to maintain."
+            title="Tracking + basics"
+            body="Contact buttons, optional lead form, and simple analytics so you can measure results."
           />
           <Card
-            icon="page"
-            title="Direct communication"
-            body="Need a change? Call, text, or email me directly and I’ll update the site."
+            icon="direct"
+            title="Same-day updates"
+            body="Need a change? Call or text me and I’ll update your site fast—no ticket system."
           />
           <Card
             icon="offer"
-            title="Easy flexibility"
-            body="Ongoing edits, seasonal updates, and changes to services/offers—handled quickly without starting from scratch."
+            title="Offer + review section"
+            body="We add trust signals (reviews, guarantees, badges) so prospects choose you faster."
           />
         </div>
       </Section>
@@ -500,67 +502,80 @@ export default function Home() {
           Simple pricing. No long contracts. Direct access to me.
         </p>
 
-        <div className="mt-10 grid gap-5 lg:grid-cols-2">
+        <div className="mt-10">
           <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
-            <div className="flex items-start justify-between gap-4">
+            <div className="flex flex-wrap items-start justify-between gap-4">
               <div>
-                <div className="text-sm font-semibold text-slate-900">Website Build</div>
-                <div className="mt-1 text-sm text-slate-600">One-page website + direct review</div>
-              </div>
-              <Pill>One-time</Pill>
-            </div>
-            <div className="mt-6 text-4xl font-semibold tracking-tight text-slate-900">$499</div>
-            <div className="mt-1 text-sm text-slate-500">Typical turnaround: fast</div>
-
-            <div className="mt-6 space-y-3 text-sm text-slate-700">
-              {[
-                "Mobile-first one-page website",
-                "Clear call/text/email buttons",
-                "Copy + structure so services are clear",
-                "Direct review (text/email/call)",
-              ].map((item) => (
-                <div key={item} className="flex gap-3">
-                  <span className="mt-0.5 inline-flex h-5 w-5 flex-none items-center justify-center rounded-full bg-slate-100 text-xs text-slate-900">
-                    ✓
-                  </span>
-                  <span>{item}</span>
+                <div className="text-sm font-semibold text-slate-900">Grand Slam Offer</div>
+                <div className="mt-1 text-sm text-slate-600">
+                  Conversion-focused website + ongoing updates — built to turn visitors into calls + texts.
                 </div>
-              ))}
+              </div>
+              <div className="flex items-center gap-2">
+                <Pill>Build + Care</Pill>
+                <Pill>Month-to-month</Pill>
+              </div>
             </div>
-          </div>
 
-          <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
-            <div className="flex items-start justify-between gap-4">
+            <div className="mt-6 grid gap-6 lg:grid-cols-2 lg:items-start">
+              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">Pricing</div>
+                <div className="mt-2 text-3xl font-semibold tracking-tight text-slate-900">$499</div>
+                <div className="mt-1 text-sm text-slate-600">one-time build fee</div>
+                <div className="mt-4 text-3xl font-semibold tracking-tight text-slate-900">$100/mo</div>
+                <div className="mt-1 text-sm text-slate-600">ongoing updates + care • cancel anytime</div>
+                <div className="mt-4 text-sm text-slate-500">Typical launch: 7–14 days</div>
+              </div>
+
               <div>
-                <div className="text-sm font-semibold text-slate-900">Easy flexibility</div>
-                <div className="mt-1 text-sm text-slate-600">Updates when you need them</div>
-              </div>
-              <Pill>Stripe</Pill>
-            </div>
-            <div className="mt-6 text-4xl font-semibold tracking-tight text-slate-900">$100</div>
-            <div className="mt-1 text-sm text-slate-500">per month • cancel anytime</div>
-
-            <div className="mt-6 space-y-3 text-sm text-slate-700">
-              {[
-                "Unlimited small edits (with guardrails)",
-                "Seasonal updates (hours, promos, services)",
-                "Quick communication via text/email",
-                "Priority help when something changes",
-              ].map((item) => (
-                <div key={item} className="flex gap-3">
-                  <span className="mt-0.5 inline-flex h-5 w-5 flex-none items-center justify-center rounded-full bg-slate-100 text-xs text-slate-900">
-                    ✓
-                  </span>
-                  <span>{item}</span>
+                <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">What you get</div>
+                <div className="mt-3 space-y-3 text-sm text-slate-700">
+                  {[
+                    "Conversion-focused 1-page website (mobile-first)",
+                    "Copy + layout built to drive calls/texts",
+                    "Services section (problem-based)",
+                    "Reviews / trust section (Google snippets)",
+                    "Contact / request form",
+                    "Basic on-page SEO (titles, headings, speed)",
+                    "Unlimited small edits (text/photos/services)",
+                    "Same-day updates (most requests)",
+                    "Monthly “freshness” update (promo/review highlight)",
+                    "Keep pages healthy (no broken links)",
+                  ].map((item) => (
+                    <div key={item} className="flex gap-3">
+                      <span className="mt-0.5 inline-flex h-5 w-5 flex-none items-center justify-center rounded-full bg-slate-100 text-xs text-slate-900">
+                        ✓
+                      </span>
+                      <span>{item}</span>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
 
-            <div className="mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-4">
-              <div className="text-sm font-semibold">Guardrails</div>
-              <p className="mt-1 text-sm text-slate-600">
-                Small edits are included. New pages, full redesigns, logos, and ad/SEO management are separate.
-              </p>
+                <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-5">
+                  <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">Bonuses (included)</div>
+                  <div className="mt-3 space-y-3 text-sm text-slate-700">
+                    {[
+                      "Tracking + launch checklist (so you can measure results)",
+                      "Sticky mobile call/text buttons",
+                      "Same-day edits for 7 days after launch",
+                    ].map((item) => (
+                      <div key={item} className="flex gap-3">
+                        <span className="mt-0.5 inline-flex h-5 w-5 flex-none items-center justify-center rounded-full bg-slate-100 text-xs text-slate-900">
+                          ✓
+                        </span>
+                        <span>{item}</span>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="mt-5">
+                    <div className="text-sm font-semibold">Guardrails</div>
+                    <p className="mt-1 text-sm text-slate-600">
+                      Small edits are included. New pages, full redesigns, logos, and ad/SEO management are separate.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
