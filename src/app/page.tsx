@@ -704,43 +704,23 @@ export default function Home() {
             },
             {
               q: "How long does it take?",
-              a: "Fast. Once I have your info, I’ll send a draft quickly and we’ll finalize changes by text/email.",
+              a: "Fast. Once I have your info, I’ll send a draft quickly and we’ll finalize changes by text/call.",
             },
             {
               q: "What’s included in the $499 build?",
-              a: "A one-page website with your services, service area, clear call/text/email buttons, and clean mobile-first layout. We do direct review and revisions before it goes live.",
+              a: "A conversion-focused one-page website with your services, service area, and clear call/text actions—built mobile-first. We review and revise before it goes live.",
             },
             {
-              q: "What does the $100/mo flexibility plan include?", 
+              q: "What does the $100/mo care plan include?",
               a: "Unlimited small edits (with guardrails): hours, services, pricing, photos, promos, and copy updates. Bigger requests (new pages, full redesigns, logo work) are quoted separately.",
             },
             {
               q: "What counts as a “small edit”?",
-              a: "Things like swapping photos, updating hours, changing a price/offer, adding a new service line, updating text, or adding a review. If it’s a bigger change, I’ll tell you up front and quote it.",
+              a: "Swapping photos, updating hours, changing a price/offer, adding a new service line, updating text, or adding a review. If it’s bigger, I’ll tell you up front and quote it.",
             },
             {
               q: "Do I own the website?",
               a: "Yes. You own your domain and your site. No lock-in.",
-            },
-            {
-              q: "Do you handle the domain?",
-              a: "I can help you connect your domain (GoDaddy, Namecheap, Google Domains, etc.). You should own it in your name so you’re never stuck.",
-            },
-            {
-              q: "Where is the website hosted?",
-              a: "I host and deploy it in a modern setup that’s fast and reliable. If you ever want to move it, you can—no hostage setups.",
-            },
-            {
-              q: "Can you use my current website?",
-              a: "Yes. If you already have a site, we can rebuild/refresh it into a clean one-page version that’s easier to understand and more likely to get calls.",
-            },
-            {
-              q: "Do you write the words (copy)?",
-              a: "Yes. I’ll write and structure the page so it’s clear what you do, where you operate, and how customers contact you.",
-            },
-            {
-              q: "Do you do SEO or Google Ads?",
-              a: "Not as part of this offer (yet). Step 1 is a website that converts. Once that’s solid, we can talk about adding growth services.",
             },
             {
               q: "How does payment work?",
@@ -749,14 +729,6 @@ export default function Home() {
             {
               q: "Can I cancel the plan?",
               a: "Yes—any time. The plan is for ongoing updates. If you cancel, your site stays live as-is.",
-            },
-            {
-              q: "Can you add extra pages later?",
-              a: "Yes. This offer starts as one page to keep it simple and fast. If you want additional pages later, we can add them for an extra fee.",
-            },
-            {
-              q: "Can customers email me through the site?",
-              a: "Yes. We can add an email button and (optionally) a simple contact form.",
             },
           ].map((item) => (
             <details
