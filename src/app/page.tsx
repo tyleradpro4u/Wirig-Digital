@@ -528,7 +528,7 @@ export default function Home() {
                 <div className="mt-2 text-3xl font-semibold tracking-tight text-slate-900">$499</div>
                 <div className="mt-1 text-sm text-slate-600">one-time build fee</div>
                 <div className="mt-4 text-3xl font-semibold tracking-tight text-slate-900">$100/mo</div>
-                <div className="mt-1 text-sm text-slate-600">ongoing updates + care • cancel anytime</div>
+                <div className="mt-1 text-sm text-slate-600">hosting + maintenance + updates • cancel anytime</div>
                 <div className="mt-4 text-sm text-slate-500">Typical launch: 7–14 days</div>
               </div>
 
@@ -542,6 +542,8 @@ export default function Home() {
                     "Reviews / trust section (Google snippets)",
                     "Contact / request form",
                     "Basic on-page SEO (titles, headings, speed)",
+                    "Hosting included",
+                    "Maintenance (keep it running + secure)",
                     "Unlimited small edits (text/photos/services)",
                     "Same-day updates (most requests)",
                     "Monthly “freshness” update (promo/review highlight)",
@@ -717,7 +719,7 @@ export default function Home() {
             },
             {
               q: "What does the $100/mo care plan include?",
-              a: "Unlimited small edits (with guardrails): hours, services, pricing, photos, promos, and copy updates. Bigger requests (new pages, full redesigns, logo work) are quoted separately.",
+              a: "Hosting + maintenance + updates. That includes unlimited small edits (with guardrails): hours, services, pricing, photos, promos, and copy updates. Bigger requests (new pages, full redesigns, logo work) are quoted separately.",
             },
             {
               q: "What counts as a “small edit”?",
