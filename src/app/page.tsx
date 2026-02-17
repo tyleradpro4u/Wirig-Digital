@@ -32,7 +32,7 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section id={id} className={cx("py-16 sm:py-20", className)}>
+    <section id={id} className={cx("py-12 sm:py-16 lg:py-20", className)}>
       <Container>{children}</Container>
     </section>
   );
@@ -53,19 +53,25 @@ function PrimaryButtons() {
         href="https://calendly.com/tywirig"
         target="_blank"
         rel="noreferrer"
-        className="inline-flex h-12 items-center justify-center rounded-xl bg-slate-900 px-5 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-800"
+        className="inline-flex h-11 w-full items-center justify-center rounded-xl bg-slate-900 px-5 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-800 sm:h-12 sm:w-auto"
       >
         {LINKS.primaryCta}
       </a>
       <a
         href={`sms:${BRAND.smsE164}`}
-        className="inline-flex h-12 items-center justify-center rounded-xl border border-slate-200 bg-white px-5 text-sm font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50"
+        className="inline-flex h-11 w-full items-center justify-center rounded-xl border border-slate-200 bg-white px-5 text-sm font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50 sm:h-12 sm:w-auto"
       >
         {LINKS.secondaryCta}
       </a>
       <a
+        href={`tel:${BRAND.phoneE164}`}
+        className="inline-flex h-11 w-full items-center justify-center rounded-xl border border-slate-200 bg-white px-5 text-sm font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50 sm:hidden"
+      >
+        Call
+      </a>
+      <a
         href={`mailto:${BRAND.email}`}
-        className="inline-flex h-12 items-center justify-center rounded-xl px-2 text-sm font-semibold text-slate-600 hover:text-slate-900"
+        className="inline-flex h-11 w-full items-center justify-center rounded-xl px-2 text-sm font-semibold text-slate-600 hover:text-slate-900 sm:h-12 sm:w-auto"
       >
         Email →
       </a>
@@ -244,7 +250,7 @@ function Card({
   icon?: "page" | "offer" | "track" | "ads" | "seo" | "direct";
 }) {
   return (
-    <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+    <div className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
       <div className="flex items-start gap-3">
         {icon ? (
           <span className="mt-0.5 inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-900 text-white shadow-sm">
