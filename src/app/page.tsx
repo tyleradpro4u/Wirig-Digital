@@ -527,7 +527,7 @@ export default function Home() {
                 <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">Pricing</div>
                 <div className="mt-2 text-3xl font-semibold tracking-tight text-slate-900">$499</div>
                 <div className="mt-1 text-sm text-slate-600">one-time build fee</div>
-                <div className="mt-4 text-3xl font-semibold tracking-tight text-slate-900">$100/mo</div>
+                <div className="mt-4 text-3xl font-semibold tracking-tight text-slate-900">$99/mo</div>
                 <div className="mt-1 text-sm text-slate-600">hosting + maintenance + updates • cancel anytime</div>
                 <div className="mt-4 text-sm text-slate-500">Typical launch: 7–14 days</div>
               </div>
@@ -664,7 +664,7 @@ export default function Home() {
             <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
               <div className="text-sm font-semibold text-slate-900">No lock-in</div>
               <p className="mt-2 text-sm text-slate-600">
-                The $100/mo care plan is month‑to‑month. Cancel anytime.
+                The $99/mo care plan is month‑to‑month. Cancel anytime.
               </p>
               <p className="mt-2 text-sm text-slate-600">
                 I keep a small client cap so communication stays fast.
@@ -718,7 +718,7 @@ export default function Home() {
               a: "A conversion-focused one-page website with your services, service area, and clear call/text actions—built mobile-first. We review and revise before it goes live.",
             },
             {
-              q: "What does the $100/mo care plan include?",
+              q: "What does the $99/mo care plan include?",
               a: "Hosting + maintenance + updates. That includes unlimited small edits (with guardrails): hours, services, pricing, photos, promos, and copy updates. Bigger requests (new pages, full redesigns, logo work) are quoted separately.",
             },
             {
