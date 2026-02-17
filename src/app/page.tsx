@@ -369,8 +369,7 @@ export default function Home() {
           What you get
         </h2>
         <p className="mt-3 max-w-2xl text-slate-600">
-          I don’t start with “marketing.” I start with the thing your marketing should point to:
-          a page that converts, with clear call/text actions.
+          The most important thing your marketing should point to: a page that converts, with clear call/text actions.
         </p>
 
         <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
