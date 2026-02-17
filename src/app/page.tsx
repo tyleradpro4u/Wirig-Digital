@@ -298,7 +298,7 @@ export default function Home() {
 
       {/* Hero */}
       <Section className="bg-gradient-to-b from-slate-50 to-white">
-        <div className="grid items-center gap-10 lg:grid-cols-2">
+        <div className="grid items-center gap-10 md:grid-cols-2">
           <div>
             <div className="mb-4 flex flex-wrap gap-2">
               <Pill>Local service businesses</Pill>
@@ -414,7 +414,7 @@ export default function Home() {
 
       {/* How it works */}
       <Section id="process" className="bg-slate-50">
-        <div className="grid gap-10 lg:grid-cols-2">
+        <div className="grid gap-10 md:grid-cols-2">
           <div>
             <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">How it works</h2>
             <p className="mt-3 max-w-xl text-slate-600">
