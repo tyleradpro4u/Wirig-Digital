@@ -347,7 +347,7 @@ export default function Home() {
 
               <div className="mt-6 space-y-3 text-sm text-slate-700">
                 {[
-                  "One-page website built for mobile",
+                  "Works great on phones (call/text buttons are easy to tap)",
                   "Clear call/text/email buttons",
                   "Direct communication for changes",
                   "Easy, flexible updates", 
@@ -387,7 +387,7 @@ export default function Home() {
           <Card
             icon="ads"
             title="Built for calls + texts"
-            body="Sticky mobile CTA, tap-to-call, and fast “what happens next” messaging for higher conversion."
+            body="Tap-to-call/text buttons, fast “what happens next” messaging, and a layout that’s easy to use on phones."
           />
           <Card
             icon="seo"
@@ -488,7 +488,7 @@ export default function Home() {
                 />
               </div>
               <p className="mt-4 text-sm text-slate-600">
-                Clean hero, services, reviews, and big call/text buttons. Built for mobile.
+                Clean hero, services, reviews, and big call/text buttons. Easy to use on phones.
               </p>
               <div className="mt-4 flex items-center gap-2">
                 <Pill>Simple</Pill>
@@ -536,7 +536,7 @@ export default function Home() {
                 <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">What you get</div>
                 <div className="mt-3 space-y-3 text-sm text-slate-700">
                   {[
-                    "Conversion-focused 1-page website (mobile-first)",
+                    "Conversion-focused 1-page website (works great on phones)",
                     "Copy + layout built to drive calls/texts",
                     "Services section (problem-based)",
                     "Reviews / trust section (Google snippets)",
@@ -563,7 +563,7 @@ export default function Home() {
                   <div className="mt-3 space-y-3 text-sm text-slate-700">
                     {[
                       "Tracking + launch checklist (so you can measure results)",
-                      "Sticky mobile call/text buttons",
+                      "Prominent call/text buttons (easy to tap on phones)",
                       "Same-day edits for 7 days after launch",
                     ].map((item) => (
                       <div key={item} className="flex gap-3">
@@ -715,7 +715,7 @@ export default function Home() {
             },
             {
               q: "What’s included in the $499 build?",
-              a: "A conversion-focused one-page website with your services, service area, and clear call/text actions—built mobile-first. We review and revise before it goes live.",
+              a: "A conversion-focused one-page website with your services, service area, and clear call/text actions. Works great on phones. We review and revise before it goes live.",
             },
             {
               q: "What does the $99/mo care plan include?",
