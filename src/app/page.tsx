@@ -274,8 +274,8 @@ export default function Home() {
         <Container>
           <div className="flex items-center justify-between py-4">
             <div className="flex items-center gap-3">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-slate-900 text-sm font-bold text-white shadow-sm">
-                W
+              <div className="relative h-9 w-9 overflow-hidden rounded-xl shadow-sm">
+                <Image src="/brand/logo.svg" alt="Wirig Digital logo" fill sizes="36px" />
               </div>
               <div className="leading-tight">
                 <div className="text-sm font-semibold tracking-tight">{BRAND.name}</div>
