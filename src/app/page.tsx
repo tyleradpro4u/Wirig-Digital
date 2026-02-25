@@ -6,7 +6,7 @@ const BRAND = {
   phoneDisplay: "(702) 628-6274",
   phoneE164: "+17026286274",
   smsE164: "+17026286274",
-  email: "TylerAdPro4U@gmail.com",
+  email: "wirigdigital@outlook.com",
 };
 
 const LINKS = {
